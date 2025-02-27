@@ -3454,7 +3454,7 @@ body.is-menu-visible #menu .close {
 
 /* Hover effect to make badges interactive */
 .certs-wrapper:hover {
-  box-shadow: 0 8px 12px rgba(255, 255, 255, 0.15);
+  box-shadow: 0 8px 12px rgba(255, 255, 255, 0.5);
 }
 
 /* Medium screen (tablet) styles */
@@ -3467,6 +3467,58 @@ body.is-menu-visible #menu .close {
 /* Small screen (mobile) styles */
 @media (max-width: 480px) {
   .certs-wrapper {
+    flex: 1 1 100%; /* Make each badge take full width */
+    max-width: 100%; /* Need to cancel max-width constraint */
+  }
+}
+
+/* Home Certs */
+
+/* Container for the grid */
+.home-certs-container {
+  display: flex;
+  flex-wrap: wrap; /* Ensure items wrap to the next line */
+  justify-content: center; /* Center the badges */
+  margin-bottom: 40px;
+}
+
+/* Wrapper for each badge */
+.home-certs-wrapper {
+  margin: 10px;
+  flex-grow: 1;
+  flex-basis: 150px; /* Minimum width of each badge */
+  max-width: 300px; /* Limit the size to avoid too large items */
+  padding: 15px;
+  border: 1px solid #fff;
+  border-radius: 25px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+}
+
+/* Styling for each badge content */
+.home-cert-content {
+  flex-direction: column;
+  font-size: 1rem;
+  font-weight: bold;
+  display: flex;
+  padding: 5px;
+}
+
+/* Hover effect to make badges interactive */
+.home-certs-wrapper:hover {
+  box-shadow: 0 8px 12px rgba(255, 255, 255, 0.5);
+}
+
+/* Medium screen (tablet) styles */
+@media (max-width: 768px) {
+  .home-certs-wrapper {
+    flex-basis: 45%; /* Allow 2 items per row */
+  }
+}
+
+/* Small screen (mobile) styles */
+@media (max-width: 480px) {
+  .home-certs-wrapper {
     flex: 1 1 100%; /* Make each badge take full width */
     max-width: 100%; /* Need to cancel max-width constraint */
   }
