@@ -1,6 +1,6 @@
 # 🌐 Renaissance Technologist Portfolio
 
-Welcome to the GitHub repository for my personal portfolio website—**Renaissance Technologist**. This site documents my career transition into cybersecurity, blending technical expertise with personal growth and purpose. My journey reflects a commitment to mastering the intersection of technology, security, and human resilience.
+Welcome to the GitHub repository for my personal portfolio website. This site documents my career transition into cybersecurity, blending technical expertise with personal growth and purpose. My journey reflects a commitment to mastering the intersection of technology, security, and human resilience.
 
 ---
 
