@@ -69,9 +69,9 @@ As a former boxing coach and studio owner, I learned that success in any field d
 ## 📫 How to reach me
 
 - **YouTube:** [Renaissance Technologist](https://www.youtube.com/@RenaissanceTechnologist)
-- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/your-link-here)
-- **GitHub:** [GitHub Profile](https://github.com/your-github-username)
-- **Website:** [RenaissanceTechnologist.com](https://www.renaissancetechnologist.com) _(Coming Soon)_
+- **LinkedIn:** [My LinkedIn Profile](https://www.linkedin.com/in/charlesmontoya)
+- **GitHub:** [GitHub Profile](https://github.com/cleph01)
+- **Website:** [RenaissanceTechnologist.com](https://www.renaissancetechnologist.com)
 
 ---
 
